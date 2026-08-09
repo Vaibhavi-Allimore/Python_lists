@@ -1,0 +1,10 @@
+recharge_amt=[349,299,299,319,199]
+print("recharge amounts:",recharge_amt)
+total=sum(recharge_amt)
+print("Total recharge amount",total)
+print("Highest recharge amt:",max(recharge_amt))
+count=recharge_amt.count(299)
+print("Number of recharge amt:",count)
+new=int(input("Enter amount:"))
+recharge_amt.append(new)
+print("Recharge:",recharge_amt)

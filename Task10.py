@@ -1,0 +1,12 @@
+food=[200,120,300,320,100]
+print("Food price:",food)
+total=sum(food)
+print("Total order amt:",total)
+print("Highest price:",max(food))
+print("Lowest price:",min(food))
+new=int(input("Enter new price:"))
+food.append(new)
+print("After adding:",food)
+remove=int(input("Enter cancelling price:"))
+food.remove(remove)
+print("Final food list:",food)
